@@ -16,7 +16,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Por favor ingresa un número: ', (numero) => {
-  numero = parseFloat(numero); // Convertir la entrada a número (puede ser entero o decimal)
+  numero = parseFloat(numero); // Convertir la entrada a número (puede ser entero o decimal)//
   console.log(determinarSigno(numero));
   rl.close();
 });
