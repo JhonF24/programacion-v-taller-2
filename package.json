@@ -4,7 +4,7 @@
   "main": "ejercicio1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "Ejercicio1": "node Ejercicio2/Ejercicio1.js",
+    "Ejercicio1": "node Ejercicio1/Ejercicio1.js",
     "Ejercicio2": "node Ejercicio2/Ejercicio2.js",
     "Ejercicio3": "node Ejercicio2/Ejercicio3.js",
     "Ejercicio4": "node Ejercicio2/Ejercicio4.js",
