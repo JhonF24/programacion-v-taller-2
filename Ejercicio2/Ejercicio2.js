@@ -1,11 +1,12 @@
-function esParOImpar(numero) {
-    if(numero % 2 === 0) {
-        return "El número es par";
+function determinarSigno(numero) {
+    if(numero > 0) {
+        return "El número es positivo";
+    } else if(numero < 0) {
+        return "El número es negativo";
     } else {
-        return "El número es impar";
+        return "El número es cero";
     }
 }
-
 
 const readline = require('readline');
 
@@ -15,7 +16,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Por favor ingresa un número: ', (numero) => {
-  numero = parseInt(numero);
-  console.log(esParOImpar(numero));
+  numero = parseFloat(numero); // Convertir la entrada a número (puede ser entero o decimal)
+  console.log(determinarSigno(numero));
   rl.close();
 });
